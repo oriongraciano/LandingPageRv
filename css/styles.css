@@ -7,14 +7,8 @@
 
 body {
     background-color: #3c3c3c;
-    background-image: url(/imagens/imagemFundo.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
 }
+
 
 .img-logo {
     width: 140px;
