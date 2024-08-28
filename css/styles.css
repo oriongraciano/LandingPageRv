@@ -7,7 +7,7 @@
 
 body {
     background-color: #3c3c3c;
-    background-image: url(/imagens/imagemFundo.jpeg);
+    background-image: url(./imagens/imagemFundo.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
