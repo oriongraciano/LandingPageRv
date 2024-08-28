@@ -1,0 +1,129 @@
+@import url('http://fonts.googleapis.com/css2?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3c3c3c;
+    background-image: url(/imagens/imagemFundo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.img-logo {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #8d0e0e;
+    border-radius: 80px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fraseSonho {
+    color: aliceblue;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+.headerAgende {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.btn-actions {
+    position: absolute;
+    left: 50px;
+}
+
+button {
+    background-color: rgb(05, 05, 05);
+    color: aliceblue;
+    width: 350px;
+    height: 50px;
+    border: 2px solid #3c3c3c;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(50, 190, 70);
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 10px;
+    width: 100%;
+    bottom: 0%;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer>p {
+    justify-content: center;
+    margin-top: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Responsividade */
+
+@media (max-width: 480px) {
+
+    .img-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .fraseSonho {
+        position: absolute;
+        top: 190px;
+    }
+
+    .headerAgende {
+        max-width: 80%;
+    }
+
+    button {
+        max-width: 110%;
+    }
+
+    .btn-actions {
+        position: absolute;
+        left: 25px;
+    }
+}
