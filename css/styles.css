@@ -28,7 +28,7 @@ body {
     position: absolute;
     align-items: center;
     text-align: center;
-    top: 25%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -104,22 +104,27 @@ footer>p {
     }
 
     .fraseSonho {
+        font-size: 12px;
         position: absolute;
         top: 180px;
     }
 
     .headerAgende {
-        max-width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
     }
 
     button {
         width: 400px;
         height: 55px;
-        max-width: 110%;
+        max-width: 100%;
     }
 
     .btn-actions {
         position: absolute;
-        left: 25px;
+        left: 28px;
     }
 }
