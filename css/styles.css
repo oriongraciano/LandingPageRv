@@ -55,7 +55,7 @@ button {
     background-color: rgb(05, 05, 05);
     color: aliceblue;
     width: 350px;
-    height: 50px;
+    height: 55px;
     border: 2px solid #3c3c3c;
     border-radius: 10px;
     font-weight: bold;
@@ -109,10 +109,12 @@ footer>p {
     }
 
     .headerAgende {
-        max-width: 80%;
+        max-width: 90%;
     }
 
     button {
+        width: 400px;
+        height: 55px;
         max-width: 110%;
     }
 
