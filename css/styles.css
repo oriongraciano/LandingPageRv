@@ -95,7 +95,10 @@ footer>p {
     margin-top: 5px;
     text-align: center;
     text-decoration: none;
+    font-family: 'Lato';
+    font-weight: bold;
     color: aliceblue;
+
 }
 
 /* Responsividade */
