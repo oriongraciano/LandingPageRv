@@ -13,8 +13,8 @@ body {
 
 
 .img-logo {
-    width: 140px;
-    height: 140px;
+    width: 146px;
+    height: 146px;
     position: absolute;
     top: 12%;
     left: 50%;
@@ -102,8 +102,8 @@ footer>p {
 @media (max-width: 480px) {
 
     .img-logo {
-        width: 125px;
-        height: 125px;
+        width: 128px;
+        height: 128px;
     }
 
     .fraseSonho {
