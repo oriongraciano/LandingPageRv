@@ -1,3 +1,3 @@
-function exibirAlerta(){
-    window.alert("Olá, Seja Bem Vindo!");
-}
+setTimeout(function(){
+    alert("Olá, Seja Bem Vindo!");
+},400);
