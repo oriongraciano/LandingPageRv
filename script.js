@@ -1,1 +1,3 @@
-alert("Olá, Seja Bem Vindo!")
+function exibirAlerta(){
+    window.alert("Olá, Seja Bem Vindo!");
+}
