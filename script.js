@@ -1,7 +1,7 @@
 setTimeout(function(){
     Toastify({
         text: "Olá, Seja Bem Vindo!",
-        duration: 3500,
+        duration: 3000,
         close: true,
         gravity: "top", // `top` or `bottom`
         position: "center", // `left`, `center` or `right`

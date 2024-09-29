@@ -35,7 +35,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Times New Roman', Times, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .headerAgende {
@@ -85,13 +85,14 @@ footer {
 footer>div {
     display: flex;
     justify-content: center;
+    margin-top: 5px;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
 footer>p {
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 3px;
     text-align: center;
     text-decoration: none;
     color: aliceblue;
