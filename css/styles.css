@@ -15,8 +15,8 @@ body {
 
 
 .img-logo {
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 165px;
     position: absolute;
     top: 12%;
     left: 50%;
@@ -105,7 +105,7 @@ footer>p {
 @media (max-width: 480px) {
 
     .img-logo {
-        width: 130px;
+        width: 135px;
         height: 130px;
     }
 
